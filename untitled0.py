@@ -62,6 +62,7 @@ for i in range(0,28000):
     val=max(li)
     pred.append(li.index(val))
 
+ #to save predicted value in dataframe .csv file
 
 DF1 = pd.DataFrame(list(pred))
 DF1.columns=['Label']
